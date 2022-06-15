@@ -1,0 +1,19 @@
+# This is a basic workflow to help you get started with Actions
+
+name: github checkout
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # When you want to use the action that someone else made
+      - uses: actions/checkout@v2
+
+      - name: Run pwd
+        run: pwd
+
+      - name: Run ls -al
+        run: ls -al
