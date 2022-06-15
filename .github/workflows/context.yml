@@ -3,7 +3,6 @@ name: github info
 on: [push]
 # 
 jobs:
-  one:
     runs-on: ubuntu-16.04
     steps:
       - name: Dump GitHub context
