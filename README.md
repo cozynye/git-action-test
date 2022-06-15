@@ -4,3 +4,5 @@
 
 참고
 > https://docs.github.com/en/actions/learn-github-actions/contexts
+> https://okdevtv.com/mib/github/actions
+> https://github.com/appleboy/ssh-action
